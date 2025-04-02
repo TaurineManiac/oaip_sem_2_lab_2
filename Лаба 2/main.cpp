@@ -75,7 +75,7 @@ int main() {
                     }
                 }
                 if (znacki) {
-                    cout << "Число должно быть не дробное:)" << endl;
+                    cout << "Число должно быть не дробное и целое:)" << endl;
                     continue;
                 }
                 try {
@@ -118,16 +118,18 @@ int main() {
                 cout << "Сначала инициализируйте массивы (пункт 1).\n";
             } else {
                 // Логика для пузырьковой сортировки
+                cout << "Массив a до:" << endl;
+                cout << "a: "; printArrays(a, size); cout << endl;
                 cout << "Отсортированный массив a:\n";
                 bubbleSort(a,size);
-                cout << "Отсортированный массив b:\n";
-                bubbleSort(b,size);
-                cout << "Отсортированный массив c:\n";
-                bubbleSort(c,size);
-                cout << "Отсортированный массив d:\n";
-                bubbleSort(d,size);
-                cout << "Отсортированный массив e:\n";
-                bubbleSort(e,size);
+//                cout << "Отсортированный массив b:\n";
+//                bubbleSort(b,size);
+//                cout << "Отсортированный массив c:\n";
+//                bubbleSort(c,size);
+//                cout << "Отсортированный массив d:\n";
+//                bubbleSort(d,size);
+//                cout << "Отсортированный массив e:\n";
+//                bubbleSort(e,size);
             }
         }
         else if (choose == 3) {
@@ -135,16 +137,18 @@ int main() {
                 cout << "Сначала инициализируйте массивы (пункт 1).\n";
             } else {
                 // Логика для сортировки выбором
-                cout << "Отсортированный массив a:\n";
-                selectSort(a,size);
+//                cout << "Отсортированный массив a:\n";
+//                selectSort(a,size);
+                cout << "Массив b до:" << endl;
+                cout << "b: "; printArrays(b, size); cout << endl;
                 cout << "Отсортированный массив b:\n";
                 selectSort(b,size);
-                cout << "Отсортированный массив c:\n";
-                selectSort(c,size);
-                cout << "Отсортированный массив d:\n";
-                selectSort(d,size);
-                cout << "Отсортированный массив e:\n";
-                selectSort(e,size);
+//                cout << "Отсортированный массив c:\n";
+//                selectSort(c,size);
+//                cout << "Отсортированный массив d:\n";
+//                selectSort(d,size);
+//                cout << "Отсортированный массив e:\n";
+//                selectSort(e,size);
             }
         }
         else if (choose == 4) {
@@ -152,16 +156,18 @@ int main() {
                 cout << "Сначала инициализируйте массивы (пункт 1).\n";
             } else {
                 // Логика для сортировки вставками
-                cout << "Отсортированный массив a:\n";
-                insertionSort(a,size);
-                cout << "Отсортированный массив b:\n";
-                insertionSort(b,size);
+//                cout << "Отсортированный массив a:\n";
+//                insertionSort(a,size);
+//                cout << "Отсортированный массив b:\n";
+//                insertionSort(b,size);
+                cout << "Массив c до:" << endl;
+                cout << "c: "; printArrays(c, size); cout << endl;
                 cout << "Отсортированный массив c:\n";
                 insertionSort(c,size);
-                cout << "Отсортированный массив d:\n";
-                insertionSort(d,size);
-                cout << "Отсортированный массив e:\n";
-                insertionSort(e,size);
+//                cout << "Отсортированный массив d:\n";
+//                insertionSort(d,size);
+//                cout << "Отсортированный массив e:\n";
+//                insertionSort(e,size);
             }
         }
         else if (choose == 5) {
@@ -169,16 +175,18 @@ int main() {
                 cout << "Сначала инициализируйте массивы (пункт 1).\n";
             } else {
                 // Логика для сортировки Шелла
-                cout << "Отсортированный массив a:\n";
-                shellSort(a,size);
-                cout << "Отсортированный массив b:\n";
-                shellSort(b,size);
-                cout << "Отсортированный массив c:\n";
-                shellSort(c,size);
+//                cout << "Отсортированный массив a:\n";
+//                shellSort(a,size);
+//                cout << "Отсортированный массив b:\n";
+//                shellSort(b,size);
+//                cout << "Отсортированный массив c:\n";
+//                shellSort(c,size);
+                cout << "Массив d до:" << endl;
+                cout << "d: "; printArrays(d, size); cout << endl;
                 cout << "Отсортированный массив d:\n";
                 shellSort(d,size);
-                cout << "Отсортированный массив e:\n";
-                shellSort(e,size);
+//                cout << "Отсортированный массив e:\n";
+//                shellSort(e,size);
             }
         }
         else if (choose == 6) {
@@ -186,14 +194,16 @@ int main() {
                 cout << "Сначала инициализируйте массивы (пункт 1).\n";
             } else {
                 // Логика для быстрой сортировки Хоара
-                cout << "Отсортированный массив a:\n";
-                quickSort(a,size);
-                cout << "Отсортированный массив b:\n";
-                quickSort(b,size);
-                cout << "Отсортированный массив c:\n";
-                quickSort(c,size);
-                cout << "Отсортированный массив d:\n";
-                quickSort(d,size);
+//                cout << "Отсортированный массив a:\n";
+//                quickSort(a,size);
+//                cout << "Отсортированный массив b:\n";
+//                quickSort(b,size);
+//                cout << "Отсортированный массив c:\n";
+//                quickSort(c,size);
+//                cout << "Отсортированный массив d:\n";
+//                quickSort(d,size);
+                cout << "Массив e до:" << endl;
+                cout << "e: "; printArrays(e, size); cout << endl;
                 cout << "Отсортированный массив e:\n";
                 quickSort(e,size);
             }
@@ -204,8 +214,16 @@ int main() {
             } else {
                 // Логика для поиска
                 int target;
-                cout << "Введите число для поиска(-100...100): ";
+
+                cout << "Массивы готовы:\n";
+                cout << "a: "; printArrays(a, size); cout << endl;
+                cout << "b: "; printArrays(b, size); cout << endl;
+                cout << "c: "; printArrays(c, size); cout << endl;
+                cout << "d: "; printArrays(d, size); cout << endl;
+                cout << "e: "; printArrays(e, size); cout << endl;
+
                 while (true) {
+                    cout << "Введите число для поиска(-100...100): ";
                     getline(cin, input);
                     bool znacki = false;
                     for (int i = 0; i < input.size(); i++) {

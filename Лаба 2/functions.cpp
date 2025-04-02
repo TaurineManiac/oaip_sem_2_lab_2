@@ -204,7 +204,7 @@ void searchDefault(int* arr, int size, int target) {
         }
         file << "\n";
         file.close();
-        cout << "Результат поиска записан в файл new.txt\n";
+//        cout << "Результат поиска записан в файл new.txt\n";
     } else {
         cout << "Не удалось открыть файл для записи.\n";
     }
@@ -264,7 +264,7 @@ void searchBinary(int* arr, int size, int target) {
         }
         file << "\n";
         file.close();
-        cout << "Результат поиска записан в файл new.txt\n";
+//        cout << "Результат поиска записан в файл new.txt\n";
     } else {
         cout << "Не удалось открыть файл для записи.\n";
     }
@@ -286,7 +286,7 @@ void writeToFile(int* arr,int size,const string& operation){
         }
         file << "\n\n";
         file.close();
-        cout << "Результат записан в файл new.txt\n";
+//        cout << "Результат записан в файл new.txt\n";
     } else {
         cout << "Не удалось открыть файл для записи.\n";
     }
